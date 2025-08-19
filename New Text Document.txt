@@ -1,0 +1,13 @@
+class result
+{
+public static void main(String arg[])
+{
+System.out.print("Sr.no.\t Name\t Marks\n");
+System.out.print("\n");
+System.out.print("1\t A\t 76\n");
+System.out.print("2\t B\t 80\n");
+System.out.print("3\t C\t 85\n");
+System.out.print("4\t D\t 87\n");
+System.out.print("5\t E\t 90\n");
+}
+}
