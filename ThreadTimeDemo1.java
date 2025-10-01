@@ -32,7 +32,6 @@ public class ThreadTimeDemo1 {
         h1.run();
 
     
-
         long end1 = System.currentTimeMillis();
         System.out.println("Time taken WITH threads: " + (end1 - start1) );
 

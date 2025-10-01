@@ -1,4 +1,3 @@
-
 class Hello extends Thread {
     public void run() {
         for (int i = 1; i <= 5; i++) {
@@ -39,7 +38,6 @@ public class ThreadTimeDemo {
         long end1 = System.currentTimeMillis();
         System.out.println("Time taken WITH threads: " + (end1 - start1) );
 
-      
     }
 }
 
