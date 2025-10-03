@@ -33,7 +33,7 @@ public class thdeo11 {
         MyThread2 t2 = new MyThread2(obj);
         MyThread3 t3 = new MyThread3(obj);
         t1.setPriority(Thread.MAX_PRIORITY);
-         t2.setPriority(Thread.MIN_PRIORITY);
+        t2.setPriority(Thread.MIN_PRIORITY);
         t1.start();
         t2.start();
         t3.start();
